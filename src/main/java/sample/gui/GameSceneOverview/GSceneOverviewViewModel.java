@@ -1,4 +1,4 @@
-package sample.GameSceneOverview;
+package sample.gui.GameSceneOverview;
 
 import de.saxsys.mvvmfx.ViewModel;
 import javafx.collections.FXCollections;

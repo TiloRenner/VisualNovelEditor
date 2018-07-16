@@ -3,13 +3,11 @@ package sample;
 import de.saxsys.mvvmfx.*;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
-import sample.ChapterOverview.ChapterOverviewView;
-import sample.GameSceneOverview.GSceneOverviewView;
-import sample.scopes.TableViewMasterScope;
+import sample.gui.ChapterOverview.ChapterOverviewView;
+import sample.gui.GameSceneOverview.GSceneOverviewView;
 
 import java.net.URL;
 import java.util.ResourceBundle;

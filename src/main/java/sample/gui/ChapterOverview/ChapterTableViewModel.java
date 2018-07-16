@@ -1,4 +1,4 @@
-package sample.ChapterOverview;
+package sample.gui.ChapterOverview;
 
 import javafx.scene.control.Button;
 import sample.model.GameChapter;

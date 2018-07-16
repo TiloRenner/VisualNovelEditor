@@ -1,8 +1,7 @@
-package sample.ChapterOverview;
+package sample.gui.ChapterOverview;
 
 import de.saxsys.mvvmfx.FxmlView;
 import de.saxsys.mvvmfx.InjectViewModel;
-import javafx.beans.binding.Bindings;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableView;
 

@@ -1,4 +1,4 @@
-package sample.ChapterOverview;
+package sample.gui.ChapterOverview;
 
 import de.saxsys.mvvmfx.InjectScope;
 import de.saxsys.mvvmfx.ViewModel;
@@ -22,7 +22,6 @@ import javax.enterprise.event.Event;
 import javax.enterprise.event.Observes;
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import javax.swing.event.ChangeEvent;
 
 
 import java.util.Optional;

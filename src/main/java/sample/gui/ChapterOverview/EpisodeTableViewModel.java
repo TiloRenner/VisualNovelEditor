@@ -1,4 +1,4 @@
-package sample.ChapterOverview;
+package sample.gui.ChapterOverview;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
