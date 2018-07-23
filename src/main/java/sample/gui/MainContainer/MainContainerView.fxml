@@ -6,29 +6,27 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HelloView">
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.MainContainer.MainContainerView">
     <children>
       <BorderPane fx:id="mainContainer" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" >
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                 <AnchorPane>
                 <children>
-                    <fx:include source="gui/TopBar/TopBarView.fxml" AnchorPane.bottomAnchor="0.0"
-                                AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
-                                AnchorPane.topAnchor="0.0"/>
+                    <fx:include source="../TopBar/TopBarView.fxml" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                   </children>
                 </AnchorPane>
             </HBox>
          </top>
          <center>
-            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-               <children>
-                    <Label fx:id="helloLabel" prefHeight="17.0" prefWidth="72.0" />
-               </children>
-            </HBox>
+             <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                 <children>
+                     <Label fx:id="helloLabel2" prefHeight="17.0" prefWidth="72.0" />
+                 </children>
+             </HBox>
          </center>
          <left>
-            <HBox fx:id="leftContainer" prefHeight="800.0" prefWidth="200.0" BorderPane.alignment="CENTER" >
+            <HBox fx:id="leftContainer" prefHeight="800.0" prefWidth="200.0" BorderPane.alignment="CENTER">
 <!--
              <AnchorPane>
                  <children>
@@ -40,6 +38,26 @@
 -->
          </HBox>
          </left>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                    <Label fx:id="helloLabel" prefHeight="17.0" prefWidth="400.0" />
+               </children>
+                <children>
+                    <Label fx:id="lblSeqHeight" prefHeight="17.0" prefWidth="400.0" />
+                </children>
+                <children>
+                    <Label fx:id="lblSeqWidth" prefHeight="17.0" prefWidth="400.0" />
+                </children>
+                <children>
+                    <Label fx:id="lblBoundsParent" prefHeight="17.0" prefWidth="400.0" />
+                </children>
+                <children>
+                    <Label fx:id="lblBoundsLocal" prefHeight="17.0" prefWidth="400.0" />
+                </children>
+            </HBox>
+         </bottom>
+
 
       </BorderPane>
 

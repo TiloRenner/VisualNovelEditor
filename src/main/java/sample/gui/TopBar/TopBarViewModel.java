@@ -1,4 +1,4 @@
-package sample;
+package sample.gui.TopBar;
 
 
 import de.saxsys.mvvmfx.InjectScope;
@@ -14,6 +14,7 @@ import javafx.beans.value.ObservableValue;
 import sample.events.ChaptersUpdatedEvent;
 import sample.model.GameChapter;
 import sample.model.GameEpisode;
+import sample.model.GameStoryRepository;
 import sample.scopes.MasterDetailScope;
 import sample.scopes.TableViewMasterScope;
 
@@ -30,6 +31,9 @@ public class TopBarViewModel implements ViewModel
     private final ReadOnlyStringWrapper selectedRowText = new ReadOnlyStringWrapper();
 
     private final ReadOnlyStringWrapper selectedEpisodeText = new ReadOnlyStringWrapper();
+
+    @Inject
+    GameStoryRepository gameStoryRepository;
 
     @InjectScope
     TableViewMasterScope scope;
@@ -127,6 +131,20 @@ public class TopBarViewModel implements ViewModel
     public void addChapter()
     {
         fireUpdateEvent();
+    }
+
+
+    public void SelectEpisode1(){
+        GameEpisode episode = gameStoryRepository.findEpisodeByName("Episode 01").get();
+
+        scope.setSelectedGameEpisode(episode);
+    }
+
+    public void SelectEpisode2(){
+        GameEpisode episode = gameStoryRepository.findEpisodeByName("Episode 02").get();
+
+       scope.setSelectedGameEpisode(episode);
+        //scope.selectedGameEpisodeProperty().setValue(episode);
     }
 
 

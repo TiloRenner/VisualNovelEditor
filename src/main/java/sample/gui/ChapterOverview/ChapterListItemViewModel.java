@@ -1,18 +1,24 @@
 package sample.gui.ChapterOverview;
 
+import de.saxsys.mvvmfx.ViewModel;
+import javafx.beans.property.ReadOnlyStringWrapper;
+import javafx.beans.value.ObservableStringValue;
 import javafx.scene.control.Button;
 import sample.model.GameChapter;
 
-public class ChapterTableViewModel
+public class ChapterListItemViewModel implements ViewModel
 {
 
     private GameChapter gameChapter;
 
     private Button button;
 
-    public ChapterTableViewModel(GameChapter gameChapter) {
+    private ReadOnlyStringWrapper name = new ReadOnlyStringWrapper();
+
+    public ChapterListItemViewModel(GameChapter gameChapter) {
         this.gameChapter = gameChapter;
         button = new Button();
+        name.set(gameChapter.getName());
 
 
     }
@@ -29,5 +35,9 @@ public class ChapterTableViewModel
 
     public Button getCustomViewA() {
         return button;
+    }
+
+    public ObservableStringValue nameProperty(){
+        return name;
     }
 }

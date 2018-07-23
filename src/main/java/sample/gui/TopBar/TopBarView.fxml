@@ -5,19 +5,21 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane prefHeight="100.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TopBarView">
+<AnchorPane prefHeight="100.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.TopBar.TopBarView">
    <children>
-      <HBox prefHeight="100.0" prefWidth="800.0" spacing="10.0">
+      <HBox prefHeight="100.0" prefWidth="1000.0" spacing="10.0">
          <children>
             <Label text="LabelTop" />
          </children>
           <children>
-              <Label fx:id="lbl_SelectedEpisode" text="LabelTop2" />
-              <Label fx:id="lbl_SelectedRow" text="LabelTop2" />
-            <Button fx:id="btn_AddChapter" layoutX="134.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn_AddChapter_clicked" prefHeight="30.0" prefWidth="130.0" text="Add Chapter" />
-            <Button fx:id="btn_AddScene" mnemonicParsing="false" onAction="#btn_AddScene_clicked" prefHeight="30.0" prefWidth="130.0" text="Add Scene" />
-            <Button fx:id="btn_AddSequence" mnemonicParsing="false" onAction="#btn_AddSequence_clicked" prefHeight="30.0" prefWidth="130.0" text="Add Sequence" />
-            <Button fx:id="btn_AddSeqPart" mnemonicParsing="false" onAction="#btn_AddSeqPart_clicked" prefHeight="30.0" prefWidth="130.0" text="Add SequencePart" />
+              <Label fx:id="lbl_SelectedEpisode" minWidth="100.0" text="LabelTop2" />
+              <Label fx:id="lbl_SelectedRow" minWidth="100.0" text="LabelTop2" />
+              <Button fx:id="btn_AddChapter" layoutX="134.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn_AddChapter_clicked" prefHeight="30.0" prefWidth="130.0" text="Add Chapter" />
+              <Button fx:id="btn_AddScene" mnemonicParsing="false" onAction="#btn_AddScene_clicked" prefHeight="30.0" prefWidth="130.0" text="Add Scene" />
+              <Button fx:id="btn_AddSequence" mnemonicParsing="false" onAction="#btn_AddSequence_clicked" prefHeight="30.0" prefWidth="130.0" text="Add Sequence" />
+              <Button fx:id="btn_AddSeqPart" mnemonicParsing="false" onAction="#btn_AddSeqPart_clicked" prefHeight="30.0" prefWidth="130.0" text="Add SequencePart" />
+              <Button fx:id="btn_SelectEp1" mnemonicParsing="false" onAction="#btn_SelectEp1_clicked" prefHeight="30.0" prefWidth="130.0" text="EP1" />
+              <Button fx:id="btn_SelectEp2" mnemonicParsing="false" onAction="#btn_SelectEp2_clicked" prefHeight="30.0" prefWidth="130.0" text="EP2" />
           </children>
       </HBox>
    </children>

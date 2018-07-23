@@ -8,7 +8,7 @@ import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import sample.model.GameEpisode;
 
-public class EpisodeTableViewModel implements ViewModel
+public class EpisodeListItemViewModel implements ViewModel
 {
 
     private GameEpisode gameEpisode;
@@ -17,7 +17,7 @@ public class EpisodeTableViewModel implements ViewModel
 
     private ReadOnlyStringWrapper name = new ReadOnlyStringWrapper();
 
-    public EpisodeTableViewModel(GameEpisode gameEpisode) {
+    public EpisodeListItemViewModel(GameEpisode gameEpisode) {
         this.gameEpisode = gameEpisode;
         name.set(this.gameEpisode.getName());
 
