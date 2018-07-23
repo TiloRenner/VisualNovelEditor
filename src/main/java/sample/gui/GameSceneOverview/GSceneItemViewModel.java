@@ -5,14 +5,27 @@ import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.beans.value.ObservableStringValue;
 import javafx.beans.value.ObservableValue;
+import sample.model.GameScene;
 
 public class GSceneItemViewModel implements ViewModel {
+
+    private GameScene gameScene;
 
     private ReadOnlyStringWrapper name = new ReadOnlyStringWrapper();
 
     public GSceneItemViewModel(String name) {
         //this.name.set(" This Name");
         this.name.set(name);
+    }
+
+    public GSceneItemViewModel(GameScene gameScene) {
+        //this.name.set(" This Name");
+        this.gameScene = gameScene;
+    }
+
+    public String getId()
+    {
+        return gameScene.getId();
     }
 
     public ObservableStringValue nameProperty(){

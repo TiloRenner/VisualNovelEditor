@@ -5,6 +5,10 @@ import java.util.*;
 public class GameEpisode extends Identity {
     public int startNodeId;
     public String name;
+    public Set<GameChapter> gameChapters = new HashSet<>();
+
+
+
 
 
     public String getName() {
@@ -15,7 +19,7 @@ public class GameEpisode extends Identity {
         this.name = name;
     }
 
-    public Set<GameChapter> gameChapters = new HashSet<>();;
+
 
 
     public void addGameChapter(GameChapter gameChapter)

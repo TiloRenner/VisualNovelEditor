@@ -11,7 +11,6 @@ public abstract class Identity
     {
         id = UUID.randomUUID().toString();
 
-
     }
 
     public String getId() {

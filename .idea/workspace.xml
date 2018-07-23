@@ -2,48 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/SequencePane/ClippingPane.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/SequencePane/NodeGestures.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/SequencePane/SceneGestures.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/SequencePane/SequencePane.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/Utils/CustomBinding.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemView.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemView.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemView.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemView.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverviewView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverviewView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverviewViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterTableViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterTableViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/EpisodeTableViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeTableViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemView2.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemView2.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneOverviewView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneOverviewView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneOverviewViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/HelloView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/HelloView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorld.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorldLocation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameWorld/IGameWorldLocation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTrigger.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTrigger.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTriggerTiming.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTriggerTiming.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/ChapterOverviewView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/ChapterOverviewView.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/ChapterOverviewViewModel$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/ChapterOverviewViewModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/ChapterTableViewModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/EpisodeTableViewModel$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/ChapterOverview/EpisodeTableViewModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneItemView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneItemView.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneItemView2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneItemView2.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneItemViewModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneOverviewView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneOverviewView.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/GameSceneOverview/GSceneOverviewViewModel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/HelloView.class" afterPath="$PROJECT_DIR$/target/classes/sample/HelloView.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameWorld/GameWorld.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameWorld/GameWorldLocation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameWorld/IGameWorldLocation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/SequencedActionTrigger.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/SequencedActionTrigger.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/SequencedActionTriggerTiming.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/SequencedActionTriggerTiming.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Controller.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/HelloView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/HelloViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Main.java" afterPath="$PROJECT_DIR$/src/main/java/sample/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/MainViewModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Screen2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/TopBarView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/TopBarViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterTableViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeTableViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/maincontainer.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameChapter.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/GameChapter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameScene.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/GameScene.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameSceneSequence.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/GameSceneSequence.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/GameStoryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/GameStoryRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/Identity.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/Identity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/InMemGameStoryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/InMemGameStoryRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/model/factories/GameChapterFactory.java" afterPath="$PROJECT_DIR$/src/main/java/sample/model/factories/GameChapterFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/sample.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java" afterPath="$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/screen2.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample/HelloView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample/TopBarView.fxml" afterPath="$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarView.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/HelloView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/HelloView.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/HelloViewModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" afterPath="$PROJECT_DIR$/target/classes/sample/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/MainViewModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/Screen2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/TopBarView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/TopBarView.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/TopBarViewModel$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/TopBarViewModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewView.class" afterPath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewView.fxml" afterPath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewView.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewViewModel$1.class" afterPath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewViewModel$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewViewModel.class" afterPath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterOverviewViewModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/ChapterTableViewModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/EpisodeTableViewModel$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/ChapterOverview/EpisodeTableViewModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneItemView2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneItemView2.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneItemViewModel.class" afterPath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneItemViewModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneOverviewView.class" afterPath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneOverviewView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneOverviewView.fxml" afterPath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneOverviewView.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneOverviewViewModel.class" afterPath="$PROJECT_DIR$/target/classes/sample/gui/GameSceneOverview/GSceneOverviewViewModel.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/maincontainer.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameChapter.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/GameChapter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameEpisode$GameEpisodeBuilder.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/GameEpisode$GameEpisodeBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameEpisode.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/GameEpisode.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameScene.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/GameScene.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameSceneSequence.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/GameSceneSequence.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/GameStoryRepository.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/GameStoryRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/Identity.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/Identity.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/InMemGameStoryRepository.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/InMemGameStoryRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/model/factories/GameChapterFactory.class" afterPath="$PROJECT_DIR$/target/classes/sample/model/factories/GameChapterFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/sample.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/scopes/TableViewMasterScope.class" afterPath="$PROJECT_DIR$/target/classes/sample/scopes/TableViewMasterScope.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/screen2.fxml" afterPath="" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,61 +140,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/HelloViewModel.java">
+      <file leaf-file-name="ChapterOverviewViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="2720">
+              <caret line="160" column="58" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
+      <file leaf-file-name="SequencePane.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/SequencePane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="476">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameEpisode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java">
+      <file leaf-file-name="TableViewMasterScope.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="748">
+              <caret line="55" column="73" lean-forward="false" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+              <folding>
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameSceneSequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameSceneSequence.java">
+      <file leaf-file-name="MainContainerView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="901">
+              <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4595#4596#0" expanded="true" />
+                <element signature="e#4631#4632#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/HelloView.java">
+      <file leaf-file-name="ClippingPane.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/ClippingPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GSceneOverviewView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.fxml">
+      <file leaf-file-name="SceneGestures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/SceneGestures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="476">
+              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeGestures.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/NodeGestures.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainContainerView.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="49" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -165,47 +256,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChapterOverviewView.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml">
+      <file leaf-file-name="MainContainerViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="765">
+              <caret line="51" column="128" lean-forward="false" selection-start-line="51" selection-start-column="128" selection-end-line="51" selection-end-column="128" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2181#2182#0" expanded="true" />
+                <element signature="e#2216#2217#0" expanded="true" />
+                <element signature="e#2266#2267#0" expanded="true" />
+                <element signature="e#2302#2303#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GSceneItemView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.fxml">
+      <file leaf-file-name="MasterDetailScope.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sample/scopes/MasterDetailScope.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="218" lean-forward="false" selection-start-line="5" selection-start-column="218" selection-end-line="5" selection-end-column="218" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SequencedActionTrigger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTrigger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SequencedActionTriggerTiming.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTriggerTiming.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -217,8 +288,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -233,6 +304,7 @@
       <find>fire</find>
       <find>create</find>
       <find>listv</find>
+      <find>bidire</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -251,39 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/SequenceEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/SceneRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameSceneRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverview.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/Identity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/InMemGameChapterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/MasterDetailScope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/MainViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/scopes/MasterDetailScope.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/factories/GameChapterFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameChapterRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameScene.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameChapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameStoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sample/TopBarView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/InMemGameStoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/TopBarViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/TopBarView.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/sample/HelloView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverviewView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverviewViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterOverviewView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/ChapterTableViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/ChapterOverview/EpisodeTableViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/HelloView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneOverviewView.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/TableViewCellFactory/CachedViewModelColumnCellFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/TableViewCellFactory/TableViewCell.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/TableViewCellFactory/TableColumnCellFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneItemView.java" />
@@ -292,16 +331,49 @@
         <option value="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneOverviewView.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/GameSceneOverview/GSceneOverviewViewModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/HelloViewModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameSceneSequence.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/model/GameWorld/IGameWorldLocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorldLocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTriggerTiming.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTrigger.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/GameSceneOverview/GSceneOverviewView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/sample/HelloView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/HelloView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/HelloView.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeTableViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameChapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameSceneSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameScene.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/factories/GameChapterFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/Identity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/InMemGameStoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/model/GameStoryRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/Utils/CustomBinding.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/SequencePane/NodeGestures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/SequencePane/SceneGestures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/SequencePane/ClippingPane.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sample/SequencePane/SequencePane.java" />
       </list>
     </option>
   </component>
@@ -313,7 +385,7 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="129" />
     <option name="width" value="2425" />
@@ -338,7 +410,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JFXTest001" type="1abcf292:AndroidViewProjectNode" />
+              <item name="JFXTest001" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="JFXTest001" type="1abcf292:AndroidViewProjectNode" />
+              <item name="JFXTest001" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="JFXTest001" type="1abcf292:AndroidViewProjectNode" />
+              <item name="JFXTest001" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JFXTest001" type="58d84e3e:PackageViewProjectNode" />
+              <item name="JFXTest001" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -389,7 +494,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="ChapterOverview" type="462c0819:PsiDirectoryNode" />
+              <item name="MainContainer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VisualNovelEditorV1" type="b2602c69:ProjectViewProjectNode" />
@@ -398,8 +503,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="GameSceneOverview" type="462c0819:PsiDirectoryNode" />
+              <item name="scopes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="VisualNovelEditorV1" type="b2602c69:ProjectViewProjectNode" />
@@ -408,46 +512,29 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="SequencePane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VisualNovelEditorV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VisualNovelEditorV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="VisualNovelEditorV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VisualNovelEditorV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JFXTest001" type="1abcf292:AndroidViewProjectNode" />
-              <item name="JFXTest001" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="JFXTest001" type="1abcf292:AndroidViewProjectNode" />
-              <item name="JFXTest001" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="JFXTest001" type="1abcf292:AndroidViewProjectNode" />
-              <item name="JFXTest001" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JFXTest001" type="58d84e3e:PackageViewProjectNode" />
-              <item name="JFXTest001" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,6 +564,8 @@
       <recent name="sample" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repository\VisualNovelEditorV1\src\main\java\sample\gui\MainContainer" />
+      <recent name="D:\Repository\VisualNovelEditorV1\src\main\java\sample\gui\TopBar" />
       <recent name="D:\Repository\VisualNovelEditorV1\src\main\java\sample\gui\ChapterOverview\ChapterOverview" />
       <recent name="C:\Users\Tilo\IdeaProjects\JFXTest001\src\main\resources\sample" />
       <recent name="C:\Users\Tilo\IdeaProjects\JFXTest001\src\main\java\sample" />
@@ -744,30 +833,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="129" width="2425" height="1269" extended-state="0" />
+    <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33567664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3321617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29416344" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952547" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19027483" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1872019" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44727594" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44669262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -776,10 +864,11 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -794,13 +883,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java</url>
-          <line>168</line>
+          <line>194</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java</url>
-          <line>176</line>
+          <line>202</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -830,24 +919,54 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java</url>
-          <line>34</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/de/saxsys/mvvmfx/1.7.0/mvvmfx-1.7.0.jar!/de/saxsys/mvvmfx/internal/viewloader/ReflectionUtils.class</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/de/saxsys/mvvmfx/1.7.0/mvvmfx-1.7.0.jar!/de/saxsys/mvvmfx/internal/viewloader/ReflectionUtils.class</url>
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerViewModel.java</url>
           <line>71</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java</url>
+          <line>259</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -862,6 +981,11 @@
         <watch expression="loadFactory" />
         <watch expression="callback" />
         <watch expression="column1" />
+        <watch expression="chapter" />
+        <watch expression="selectedGameChapter" />
+        <watch expression="selectedGameEpisode" />
+        <watch expression="episode" />
+        <watch expression="scope" />
       </configuration>
     </watches-manager>
   </component>
@@ -870,224 +994,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/InMemGameStoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/3.0.0.Final/weld-core-impl-3.0.0.Final.jar!/org/jboss/weld/event/EventImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/3.0.0.Final/weld-core-impl-3.0.0.Final.jar!/org/jboss/weld/util/Observers.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/enterprise/cdi-api/2.0/cdi-api-2.0.jar!/javax/enterprise/inject/spi/ObserverMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/3.0.0.Final/weld-core-impl-3.0.0.Final.jar!/org/jboss/weld/event/ObserverMethodImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/3.0.0.Final/weld-core-impl-3.0.0.Final.jar!/org/jboss/weld/event/ObserverNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/3.0.0.Final/weld-core-impl-3.0.0.Final.jar!/org/jboss/weld/injection/StaticMethodInjectionPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/weld/weld-core-impl/3.0.0.Final/weld-core-impl-3.0.0.Final.jar!/org/jboss/weld/injection/MethodInvocationStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/MainViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="563" column="0" lean-forward="false" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/TopBarView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/TopBarViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="124" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/beans/binding/Bindings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="357" column="0" lean-forward="false" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/beans/binding/ObjectBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/events/ChaptersUpdatedEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/maincontainer.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="112" lean-forward="false" selection-start-line="7" selection-start-column="112" selection-end-line="7" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sample/HelloView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="3" lean-forward="false" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterTableViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeTableViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/util/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/TableViewCellFactory/TableViewCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/saxsys/mvvmfx/1.7.0/mvvmfx-1.7.0.jar!/de/saxsys/mvvmfx/utils/viewlist/ViewListCellFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/TableViewCellFactory/TableColumnCellFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/saxsys/mvvmfx/1.7.0/mvvmfx-1.7.0.jar!/de/saxsys/mvvmfx/internal/viewloader/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <marker date="1529956010224" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1529956010224" expanded="false" signature="160:590" ph="..." />
-            <marker date="1529956010224" expanded="true" signature="652:659" ph="{}" />
-            <marker date="1529956010224" expanded="true" signature="774:981" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="871:944" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="1056:1484" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="1591:2101" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="1670:2093" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="2177:2401" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="2239:2288" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="2521:3060" ph="{...}" />
-            <marker date="1529956010224" expanded="true" signature="2605:3042" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,121 +1025,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="100" lean-forward="false" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="71" lean-forward="false" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/HelloViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameWorld/IGameWorldLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorldLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView2.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameWorld/IGameWorldLocation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorld.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameWorld/GameWorldLocation.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/SequencedActionTriggerTiming.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,31 +1041,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/maincontainer.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="218" lean-forward="false" selection-start-line="5" selection-start-column="218" selection-end-line="5" selection-end-column="218" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameSceneSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/HelloView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="41" column="79" lean-forward="false" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
-          <folding />
+        <state relative-caret-position="527">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/factories/GameChapterFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="218" lean-forward="false" selection-start-line="5" selection-start-column="218" selection-end-line="5" selection-end-column="218" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="83" lean-forward="false" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -1270,8 +1129,231 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneItemViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/saxsys/mvvmfx/1.7.0/mvvmfx-1.7.0.jar!/de/saxsys/mvvmfx/internal/viewloader/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.base/javafx/beans/property/ObjectPropertyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="100" lean-forward="false" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/EpisodeListItemViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterListItemViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="53" column="10" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/GameSceneOverview/GSceneOverviewViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameChapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameEpisode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/Identity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/GameStoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/model/InMemGameStoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarView.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="83" lean-forward="true" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="145" column="7" lean-forward="false" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/TopBar/TopBarView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/Utils/CustomBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/scopes/MasterDetailScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="128" lean-forward="false" selection-start-line="51" selection-start-column="128" selection-end-line="51" selection-end-column="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2302#2303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/NodeGestures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/SceneGestures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/scopes/TableViewMasterScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="55" column="73" lean-forward="false" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+          <folding>
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="160" column="58" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="49" lean-forward="false" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1279,15 +1361,38 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/ChapterOverview/ChapterOverviewView.fxml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/ClippingPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/gui/MainContainer/MainContainerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="75" column="10" lean-forward="false" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4595#4596#0" expanded="true" />
+            <element signature="e#4631#4632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sample/SequencePane/SequencePane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

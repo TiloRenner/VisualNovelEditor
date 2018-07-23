@@ -2,7 +2,7 @@ package sample.model;
 
 import java.util.List;
 
-public class GameSceneSequence
+public class GameSceneSequence extends Identity
 {
 //Todo Events und Event Contents
 

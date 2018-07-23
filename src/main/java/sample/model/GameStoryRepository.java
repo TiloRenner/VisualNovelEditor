@@ -17,6 +17,8 @@ public interface GameStoryRepository {
 
     Optional<GameEpisode> findEpisodeById(String id);
 
+    Optional<GameEpisode> findEpisodeByName(String id);
+
     void saveEpisode(GameEpisode gameEpisode);
 
     void deleteEpisode(GameEpisode gameEpisode);

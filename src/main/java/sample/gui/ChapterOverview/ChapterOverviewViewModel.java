@@ -12,6 +12,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import sample.Utils.CustomBinding;
 import sample.events.ChaptersUpdatedEvent;
 import sample.model.GameChapter;
 import sample.model.GameEpisode;
@@ -42,25 +43,27 @@ public class ChapterOverviewViewModel implements ViewModel {
 
 
     //Mehrere Viewmodel Instanzen bedeutet ein Viewmodel pro Zeile?
-    private final ObservableList<ChapterTableViewModel> chapters = FXCollections.observableArrayList();
+    private final ObservableList<ChapterListItemViewModel> chapters = FXCollections.observableArrayList();
 
-    private final ObservableList<EpisodeTableViewModel> episodes = FXCollections.observableArrayList();
+    private final ObservableList<EpisodeListItemViewModel> episodes = FXCollections.observableArrayList();
 
     private final ReadOnlyObjectWrapper<GameChapter> selectedChapter = new ReadOnlyObjectWrapper<>();
 
     private final ReadOnlyObjectWrapper<GameEpisode> selectedEpisode = new ReadOnlyObjectWrapper<>();
 
-    private final ObjectProperty<ChapterTableViewModel> selectedTableRow = new SimpleObjectProperty<>();
+    private GameEpisode initEpisode;
 
-    private final ObjectProperty<EpisodeTableViewModel> selectedEpisodeTableRow = new SimpleObjectProperty<>();
+    private final ObjectProperty<ChapterListItemViewModel> selectedTableRow = new SimpleObjectProperty<>();
 
-    private Consumer<ChapterTableViewModel> onSelect;
+    private final ObjectProperty<EpisodeListItemViewModel> selectedEpisodeTableRow = new SimpleObjectProperty<>();
 
-    private Consumer<EpisodeTableViewModel> onEpisodeSelect;
+    private Consumer<ChapterListItemViewModel> onSelect;
+
+    private Consumer<EpisodeListItemViewModel> onEpisodeSelect;
 
     private GameEpisode gameEpisode;
 
-    protected ListProperty<ChapterTableViewModel> chaptersProperty = new SimpleListProperty<>();
+    //protected ListProperty<ChapterListItemViewModel> chaptersProperty = new SimpleListProperty<>();
 
     @Inject
     private Event<ChaptersUpdatedEvent> chaptersUpdatedEvent;
@@ -70,8 +73,6 @@ public class ChapterOverviewViewModel implements ViewModel {
 
     @InjectScope
     TableViewMasterScope scope;
-
-
 
     public void onChaptersUpdatedEvent(@Observes ChaptersUpdatedEvent event)
     {
@@ -87,16 +88,19 @@ public class ChapterOverviewViewModel implements ViewModel {
 
     public void initialize()
     {
-        chaptersProperty.set(chapters);
-        //ReadOnlyProperty<GameEpisode> gameEpisodeProperty = getSelectedGameEpisodePropertyFromScope();
-        //createEpisodeBinding(gameEpisodeProperty);
+        //chaptersProperty.set(chapters);
+
+        initEpisode = scope.getSelectedGameEpisode();
 
         String epname = scope.getSelectedGameEpisode().getName();
         System.out.println("Init COViewModel" + epname);
 
         updateEpisodes();
+        autoSelectEpisode();
+        //selectedEpisode.set(scope.getSelectedGameEpisode());
+
         epname = scope.getSelectedGameEpisode().getName();
-        System.out.println("Init COViewModel after Update Episodes: " + epname);
+        System.out.println("Init COViewModel before Update Episodes: " + epname);
         updateChapters();
 
         epname = scope.getSelectedGameEpisode().getName();
@@ -105,53 +109,75 @@ public class ChapterOverviewViewModel implements ViewModel {
         ChangeListener changelistener = new ChangeListener() {
             @Override
             public void changed(ObservableValue observable, Object oldValue, Object newValue) {
-                System.out.println(" CHangeListener called: " + oldValue.toString() + " / " + newValue.toString());
+                if(oldValue != null && newValue != null)
+                {
+                    System.out.println(" CHangeListener called: " + oldValue.toString() + " / " + newValue.toString());
 
-
+                }
                 fireUpdateEvent();
-                //updateChapters();
-
-
             }
         };
 
 
         scope.selectedGameEpisodeProperty().addListener(changelistener);
-        scope.selectedGameEpisodeProperty().bind(selectedEpisode);
 
-        //selectedEpisode.addListener();
+        selectedEpisode.setValue(initEpisode);
+
+        scope.selectedGameEpisodeProperty().bindBidirectional(selectedEpisode);
+        //scope.selectedGameEpisodeProperty().bind(selectedEpisode);
+        scope.selectedGameEpisodeProperty().setValue(initEpisode);
+
+
+      // CustomBinding.<ReadOnlyObjectWrapper<GameEpisode>,ObjectProperty<EpisodeListItemViewModel>>bind(selectedEpisode,selectedEpisodeTableRow,(newthing) -> newthing.set(newthing.getValue()));
+
+       // DoubleProperty price = new SimpleDoubleProperty(10.0);
+       // DoubleProperty total = new SimpleDoubleProperty(1.0);
+       // int quantity = 2;
+
+        //Source,Target, selected Episode is Ziel
+
+        CustomBinding.<EpisodeListItemViewModel,GameEpisode>bind
+                (selectedEpisodeTableRow,selectedEpisode,(currentTableRowObject) ->
+                    {
+                        System.out.println("CustomSelectBindings for Episode called");
+                        if(selectedEpisodeTableRow.get() == null)
+                        {
+                            return initEpisode;
+                        }
+                        else
+                        {
+                            GameEpisode newEpisode = gameStoryRepository.findEpisodeById(selectedEpisodeTableRow.get().getId()).orElse(null);
+                            initEpisode = newEpisode;
+                            return newEpisode;
+                            //return gameStoryRepository.findEpisodeById(selectedEpisodeTableRow.get().getId()).orElse(null);
+
+                        }
+                    }
+               );
 
 
 
+/*
         selectedEpisode.bind(Bindings.createObjectBinding( () -> {
             System.out.println("SelectBindings for Episode called");
             if(selectedEpisodeTableRow.get() == null)
             {
-                return null;
+                return initEpisode;
             }
             else
             {
-
-               // selectedTableRow.set(null);
-                //onSelect.accept(null);
-                //updateChapters();
-                //chapters = scope.getSelectedGameEpisode().findAll();
-                //chapters.clear();
-                //updateChapters();
-                //fireUpdateEvent();
-                return gameStoryRepository.findEpisodeById(selectedEpisodeTableRow.get().getId()).orElse(null);
+                GameEpisode newEpisode = gameStoryRepository.findEpisodeById(selectedEpisodeTableRow.get().getId()).orElse(null);
+                initEpisode = newEpisode;
+                return newEpisode;
+                //return gameStoryRepository.findEpisodeById(selectedEpisodeTableRow.get().getId()).orElse(null);
 
             }
 
         },selectedEpisodeTableRow));
-
-
-
-
-
+        */
 
         //Todo Scope
-        scope.selectedGameChapterProperty().bind(selectedChapter);
+        scope.selectedGameChapterProperty().bindBidirectional(selectedChapter);
 
         selectedChapter.bind(Bindings.createObjectBinding(()->
         {
@@ -189,23 +215,20 @@ public class ChapterOverviewViewModel implements ViewModel {
         final String selectedChapterId = (selectedTableRow.get() == null) ? null : selectedTableRow.get().getId();
 
         GameEpisode episode = scope.getSelectedGameEpisode();
+        GameChapter chapter = scope.getSelectedGameChapter();
 
 
         Set<GameChapter> allChapters;
 
-            allChapters = episode.findAll();
-
-           // allChapters = gameStoryRepository.findAll();
-
-
+        allChapters = episode.findAll();
 
         chapters.clear();
 
-        allChapters.forEach(GameChapter -> chapters.add(new ChapterTableViewModel(GameChapter)));
+        allChapters.forEach(GameChapter -> chapters.add(new ChapterListItemViewModel(GameChapter)));
 
         if(selectedChapterId != null)
         {
-            Optional<ChapterTableViewModel> selectedRow = chapters.stream().filter(row -> row.getId().equals(selectedChapterId)).findFirst();
+            Optional<ChapterListItemViewModel> selectedRow = chapters.stream().filter(row -> row.getId().equals(selectedChapterId)).findFirst();
 
             Optional.of(onSelect).ifPresent(consumer -> consumer.accept(selectedRow.orElse(null)));
         }
@@ -216,15 +239,13 @@ public class ChapterOverviewViewModel implements ViewModel {
     {
         GameEpisode episode = scope.getSelectedGameEpisode();
 
-
         Set<GameChapter> allChapters;
 
         if(episode != null) {
             allChapters = episode.findAll();
 
-
             chapters.clear();
-            allChapters.forEach(GameChapter -> chapters.add(new ChapterTableViewModel(GameChapter)));
+            allChapters.forEach(GameChapter -> chapters.add(new ChapterListItemViewModel(GameChapter)));
         }
     }
 
@@ -234,34 +255,35 @@ public class ChapterOverviewViewModel implements ViewModel {
         System.out.println("Update Episodes");
         final String selectedEpisodeId = (selectedEpisodeTableRow.get() == null) ? null : selectedEpisodeTableRow.get().getId();
 
+
+
         Set<GameEpisode> allEpisodes = gameStoryRepository.findAllEpisode();
 
         episodes.clear();
 
-        allEpisodes.forEach(GameEpisode -> episodes.add(new EpisodeTableViewModel(GameEpisode)));
+        allEpisodes.forEach(GameEpisode -> episodes.add(new EpisodeListItemViewModel(GameEpisode)));
 
         if(selectedEpisodeId != null)
         {
-            Optional<EpisodeTableViewModel> selectedRow = episodes.stream().filter(row -> row.getId().equals(selectedEpisodeId)).findFirst();
+            Optional<EpisodeListItemViewModel> selectedRow = episodes.stream().filter(row -> row.getId().equals(selectedEpisodeId)).findFirst();
 
             //Automatische Auswahl?
             // Wenn onEpisodeSelect nicht null dann consumer.accept(selectedRow)
             Optional.of(onEpisodeSelect).ifPresent(consumer -> consumer.accept(selectedRow.orElse(null)));
-
-
         }
 
     }
 
 
-    public ObservableList<ChapterTableViewModel> getChapters() {
+    public ObservableList<ChapterListItemViewModel> getChapters() {
 
         // Hier die Logic???
         System.out.println("GetChapters called");
         return chapters;
     }
 
-    public ListProperty<ChapterTableViewModel> getChaptersProperty() {
+    /*
+    public ListProperty<ChapterListItemViewModel> getChaptersProperty() {
 
         // Hier die Logic???
         System.out.println("GetChapters Property called");
@@ -270,29 +292,29 @@ public class ChapterOverviewViewModel implements ViewModel {
         System.out.println("Episode " + episode.getName() + " selected");
         updateChapters2();
         return chaptersProperty;
-    }
+    }*/
 
-    public ObservableList<EpisodeTableViewModel> getEpisodes() { return episodes; }
+    public ObservableList<EpisodeListItemViewModel> getEpisodes() { return episodes; }
 
-    public void setOnSelect(Consumer<ChapterTableViewModel> consumer)
+    public void setOnSelect(Consumer<ChapterListItemViewModel> consumer)
     {
         System.out.println("setOnSelect called");
         onSelect = consumer;
     }
 
-    public ObjectProperty<ChapterTableViewModel> selectedTableRowProperty()
+    public ObjectProperty<ChapterListItemViewModel> selectedTableRowProperty()
     {
         System.out.println("TableRowProperty called");
         return selectedTableRow;
     }
 
-    public ObjectProperty<EpisodeTableViewModel> selectedEpisodeTableRowProperty()
+    public ObjectProperty<EpisodeListItemViewModel> selectedEpisodeTableRowProperty()
     {
         System.out.println("EpisodeTableRowProperty called");
         return selectedEpisodeTableRow;
     }
 
-    public void setOnEpisodeSelect(Consumer<EpisodeTableViewModel> consumer)
+    public void setOnEpisodeSelect(Consumer<EpisodeListItemViewModel> consumer)
     {
         System.out.println("setOnSelect for Episode called");
         onEpisodeSelect = consumer;
@@ -314,6 +336,19 @@ public class ChapterOverviewViewModel implements ViewModel {
     {
         //Observable testObservable = new ObjectProperty<>()
         return selectedEpisode;
+    }
+
+    public void autoSelectEpisode()
+    {
+        //Finde scope.selectedEpisode, finde ID
+        String id = scope.getSelectedGameEpisode().getId();
+        EpisodeListItemViewModel temp = episodes.stream().filter(item -> item.getId().equals(id)).findFirst().get();
+        //selectedEpisodeTableRow.set(episodes.stream().filter(item -> item.getId().equals(id)).findFirst().get());
+        //selectedEpisodeTableRow.setValue(temp);
+
+
+        //Versuche passende ID in allen ViewModels zu finden
+        //selectedTableRowProperty().set();
     }
 
 

@@ -15,32 +15,14 @@ public class GSceneOverviewView implements FxmlView<GSceneOverviewViewModel> {
     @FXML
     ListView listView;
 
-    @FXML
-    TableView table;
-
-    @FXML
-    TableColumn column1, column2 ;
-
-
-
     @InjectViewModel
     GSceneOverviewViewModel viewModel;
 
     public void initialize()
     {
 
-
-
         listView.setItems(viewModel.gScenesProperty());
         listView.setCellFactory(CachedViewModelCellFactory.createForFxmlView(GSceneItemView.class));
-
-
-        table.setItems(viewModel.gScenesProperty());
-        //column1.setCellValueFactory(new PropertyValueFactory("name"));
-        column1.setCellValueFactory(new PropertyValueFactory("vm"));
-        column1.setCellFactory(CachedViewModelColumnCellFactory.createForFxmlView(GSceneItemView.class));
-        column2.setCellValueFactory(new PropertyValueFactory("vm"));
-        column2.setCellFactory(CachedViewModelColumnCellFactory.createForFxmlView(GSceneItemView2.class));
 
         //column1.setCellValueFactory(CachedViewModelCellFactory.createForFxmlView(GSceneItemView.class));
 

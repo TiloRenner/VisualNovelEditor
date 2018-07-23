@@ -1,6 +1,6 @@
 package sample.model;
 
-import java.util.List;
+import java.util.*;
 
 public class GameChapter extends Identity
 {
@@ -16,7 +16,25 @@ public class GameChapter extends Identity
         this.name = name;
     }
 
-    private List<GameScene> GameScenes;
+    private Set<GameScene> gameScenes = new HashSet<>();
+
+
+    public void addGameScene(GameScene gameScene)
+    {
+        gameScenes.add(gameScene);
+
+    }
+
+    public Set<GameScene> findAll()
+    {
+        return Collections.unmodifiableSet(gameScenes);
+        //return gameChapters;
+    }
+
+
+    public Optional<GameScene> findById(String id) {
+        return gameScenes.stream().filter(gameScene -> gameScene.getId().equals(id)).findFirst();
+    }
 
 
 

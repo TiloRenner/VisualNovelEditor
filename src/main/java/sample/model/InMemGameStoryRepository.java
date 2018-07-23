@@ -58,6 +58,11 @@ public class InMemGameStoryRepository implements GameStoryRepository {
     }
 
     @Override
+    public Optional<GameEpisode> findEpisodeByName(String id) {
+        return gameEpisodes.stream().filter(gameEpisode -> gameEpisode.getName().equals(id)).findFirst();
+    }
+
+    @Override
     public void saveEpisode(GameEpisode gameEpisode) {
         gameEpisodes.add(gameEpisode);
     }

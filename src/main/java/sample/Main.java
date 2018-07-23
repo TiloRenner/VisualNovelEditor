@@ -6,8 +6,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import sample.gui.MainContainer.MainContainerView;
+import sample.gui.MainContainer.MainContainerViewModel;
 import sample.model.GameChapter;
 import sample.model.GameEpisode;
+import sample.model.GameScene;
 import sample.model.GameStoryRepository;
 
 import javax.inject.Inject;
@@ -33,14 +36,14 @@ public class Main extends MvvmfxCdiApplication implements ViewModel {
 
 
 
-        repository.save(createFakeCHapters("CHapter 1"));
-        repository.save(createFakeCHapters("Chapter2"));
+        repository.save(createFakeChapters("Chapter 1"));
+        repository.save(createFakeChapters("Chapter 2"));
 
         repository.saveEpisode(createFakeEpisode("Episode 01"));
         repository.saveEpisode(createFakeEpisode("Episode 02"));
 
         primaryStage.setTitle("Hallo Welt");
-        ViewTuple<HelloView,HelloViewModel> viewTuple = FluentViewLoader.fxmlView(HelloView.class).context(context).load();
+        ViewTuple<MainContainerView,MainContainerViewModel> viewTuple = FluentViewLoader.fxmlView(MainContainerView.class).context(context).load();
         Parent root = viewTuple.getView();
         primaryStage.setScene(new Scene(root));
 
@@ -60,10 +63,15 @@ public class Main extends MvvmfxCdiApplication implements ViewModel {
 
     }
 
-    private GameChapter createFakeCHapters(String name)
+    private GameChapter createFakeChapters(String name)
     {
         GameChapter chapter = new GameChapter();
         chapter.name = name;
+
+        chapter.addGameScene(createFakeGameScene(name+ " Scene1"));
+        chapter.addGameScene(createFakeGameScene(name+ " Scene2"));
+        chapter.addGameScene(createFakeGameScene(name+ " Scene3"));
+
         return chapter;
     }
 
@@ -83,6 +91,12 @@ public class Main extends MvvmfxCdiApplication implements ViewModel {
 
         return episode;
 
+    }
+
+    private GameScene createFakeGameScene(String name)
+    {
+        GameScene gameScene = new GameScene(name);
+        return gameScene;
     }
 
 

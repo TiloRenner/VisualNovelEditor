@@ -1,39 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.ChapterOverview.ChapterOverviewView">
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.gui.ChapterOverview.ChapterOverviewView">
 
-      <HBox prefHeight="400.0" prefWidth="600.0">
-
-            <TableView fx:id="episodeTable" prefHeight="200.0" prefWidth="250.0">
-                <columns>
-                     <TableColumn prefWidth="100.0" text="EpisodeName">
-                         <cellValueFactory>
-                             <PropertyValueFactory property="name" />
-                         </cellValueFactory>
-                     </TableColumn>
-                    <TableColumn prefWidth="80.0" text="CustomView">
-                        <cellValueFactory>
-                            <PropertyValueFactory property="customViewA" />
-                        </cellValueFactory>
-                    </TableColumn>
-                     <TableColumn prefWidth="75.0" text="XYZ" />
-                </columns>
-            </TableView>
-          <TableView fx:id="chapterTable" prefHeight="200.0" prefWidth="200.0">
-              <columns>
-                  <TableColumn prefWidth="100.0" text="Name">
-                      <cellValueFactory>
-                          <PropertyValueFactory property="name" />
-                      </cellValueFactory>
-                  </TableColumn>
-                  <TableColumn prefWidth="75.0" text="C2" />
-              </columns>
-          </TableView>
+      <HBox prefHeight="400.0" prefWidth="400.0">
+          <ListView fx:id="episodeListView" prefHeight="200.0" prefWidth="200.0" />
+          <ListView fx:id="chapterListView" prefHeight="200.0" prefWidth="200.0" />
       </HBox>
 </AnchorPane>

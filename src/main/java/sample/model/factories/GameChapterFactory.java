@@ -19,7 +19,7 @@ public class GameChapterFactory {
 
     public GameScene createGameScene()
     {
-        GameScene gameScene = new GameScene();
+        GameScene gameScene = new GameScene("test");
         return gameScene;
     }
 
